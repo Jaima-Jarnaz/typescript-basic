@@ -1,6 +1,6 @@
 <p align="center" <img src="https://www.typescriptlang.org/images/branding/two-colors.svg" width="400"/></p>
 
-# typescript Basic
+# Typescript Basic
 
 ### Typescript Download
 - First install Node js

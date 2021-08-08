@@ -23,3 +23,4 @@
 - If we want typescript to watch our desired file then write `tsc app.ts --w` or `tsc app.ts --watch` in the terminal
 - If we want typescript to watch our whole projects file,write `tsc --init` this will generate one "tsconfig.json" file
 - then for running the project we can simply write `tsc` and for watch mode `tsc --w `
+- If we want any file don't need to run , then add ` "exclude":[ "app.ts"] ` in tsconfig.json file.

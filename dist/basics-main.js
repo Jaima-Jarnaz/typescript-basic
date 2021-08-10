@@ -6,7 +6,7 @@ var Roll;
     Roll[Roll["id"] = 4] = "id";
 })(Roll || (Roll = {}));
 //objects
-var person = {
+const person = {
     name: "jaima",
     age: 25,
     color: ["blue", "black"],
@@ -14,14 +14,13 @@ var person = {
     role: Roll.admin, //enum
 };
 console.log(person.name);
-for (var _i = 0, _a = person.color; _i < _a.length; _i++) {
-    var colors = _a[_i];
+for (const colors of person.color) {
     console.log(colors);
 }
 //array
-var fruits = ["banana", "mango"];
+const fruits = ["banana", "mango"];
 fruits.push("lichi");
-var u1 = {
+const u1 = {
     name: "Jaima",
     age: 24,
 };
